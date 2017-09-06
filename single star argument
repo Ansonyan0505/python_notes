@@ -1,0 +1,6 @@
+def hello(*names):
+    for n in names: print("Hello, %s."%n)
+
+hello("Tom","Peter","Bob","Rain")
+
+# *出來為tuple，可以讓不定數量的參數作為引數
