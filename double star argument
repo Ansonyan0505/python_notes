@@ -1,0 +1,6 @@
+def hello(**names):
+    for n in names:
+        print("Hello %s, you're %d years old"%(n,names[n]))
+
+hello(John=25, Tom=20, Bob=33, Tony=18)
+
